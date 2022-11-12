@@ -40,7 +40,7 @@ def loss(gt_name, pred_name):
 
 
 if __name__ == '__main__':
-    pred_path = r'F:\my_code\copd_PRM\pytorch-CycleGAN-and-pix2pix\save_npy\cycle_gan_basic_resnet_9blocks\fakeB_nii'
+    pred_path = r'F:\my_code\copd_PRM\pytorch-CycleGAN-and-pix2pix\save_npy\cycle_gan_pixel_unet_256\fakeB_nii'
     gt_path = r'F:\my_code\copd_PRM\pytorch-CycleGAN-and-pix2pix\save_npy\ground_truth\e'
 
     pred_list = get_listdir(pred_path)

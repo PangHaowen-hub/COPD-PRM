@@ -39,8 +39,8 @@ def PRM(img_i, img_e, save_path):
 
 if __name__ == '__main__':
     i_path = r'F:\my_code\copd_PRM\pytorch-CycleGAN-and-pix2pix\save_npy\ground_truth\i'
-    e_path = r'F:\my_code\copd_PRM\pytorch-CycleGAN-and-pix2pix\save_npy\cycle_gan_basic_resnet_9blocks\fakeB_nii'
-    save_path = r'F:\my_code\copd_PRM\pytorch-CycleGAN-and-pix2pix\save_npy\cycle_gan_basic_resnet_9blocks\fake_PRM'
+    e_path = r'F:\my_code\copd_PRM\pytorch-CycleGAN-and-pix2pix\save_npy\cycle_gan_pixel_unet_256\fakeB_nii'
+    save_path = r'F:\my_code\copd_PRM\pytorch-CycleGAN-and-pix2pix\save_npy\cycle_gan_pixel_unet_256\fake_PRM'
     i_list = get_listdir(i_path)
     i_list.sort()
     e_list = get_listdir(e_path)

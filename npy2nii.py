@@ -23,9 +23,9 @@ def get_listdir(path):
 
 
 if __name__ == '__main__':
-    nii_path = r'F:\my_code\copd_PRM\pytorch-CycleGAN-and-pix2pix\save_npy\ground_truth\e'
-    npy_path = r'F:\my_code\copd_PRM\pytorch-CycleGAN-and-pix2pix\save_npy\cycle_gan_basic_resnet_9blocks\fakeB'
-    save_path = r'F:\my_code\copd_PRM\pytorch-CycleGAN-and-pix2pix\save_npy\cycle_gan_basic_resnet_9blocks\fakeB_nii'
+    nii_path = r'F:\my_code\copd_PRM\pytorch-CycleGAN-and-pix2pix\save_npy\ground_truth\i'
+    npy_path = r'F:\my_code\copd_PRM\pytorch-CycleGAN-and-pix2pix\save_npy\cycle_gan_pixel_unet_256\fakeA'
+    save_path = r'F:\my_code\copd_PRM\pytorch-CycleGAN-and-pix2pix\save_npy\cycle_gan_pixel_unet_256\fakeA_nii'
     nii_list = get_nii_listdir(nii_path)
     nii_list.sort()
     img_list = get_listdir(npy_path)
