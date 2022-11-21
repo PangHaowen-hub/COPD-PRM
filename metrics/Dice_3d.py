@@ -34,7 +34,7 @@ def dice_3d(mask_path, pred_path, label):
 
 if __name__ == '__main__':
     mask_path = r'F:\my_code\copd_PRM\pytorch-CycleGAN-and-pix2pix\save_npy\ground_truth\PRM'
-    pred_path = r'F:\my_code\copd_PRM\pytorch-CycleGAN-and-pix2pix\save_npy\cycle_gan_pixel_unet_256\fake_PRM'
+    pred_path = r'F:\my_code\copd_PRM\pytorch-CycleGAN-and-pix2pix\save_npy\cycle_gan_basic_SwinUNETR_25epoch\fake_PRM'
     mask = get_listdir(mask_path)
     mask.sort()
     pred = get_listdir(pred_path)
